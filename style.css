@@ -19,7 +19,9 @@ h2 {
     font-size: 2rem;
     color: #333;
     margin-bottom: 20px;
-    align-items: end;
+    align-items:start;
+    text-align: start;
+    margin-bottom: 100px;
     
 }
 
@@ -31,6 +33,9 @@ form {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 450px;
 }
 
 /* Estilo dos inputs */

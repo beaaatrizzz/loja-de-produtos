@@ -1,0 +1,95 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Cor de fundo e centralização */
+body {
+    background-color: #f6f5f5;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo do título */
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    align-items: end;
+    
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Estilo dos inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+}
+
+input:focus {
+    border-color: #ff6f61;
+    outline: none;
+}
+
+/* Estilo dos botões */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="button"] {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+button[type="button"]:hover {
+    background-color: #e65c50;
+}
+
+/* Estilo para a mensagem */
+#mensagem {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #ff6f61;
+}
+
+/* Adicionar uma transição suave quando o formulário é enviado */
+form button:focus {
+    outline: none;
+}
+
+/* Estilo responsivo */
+@media (max-width: 600px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    form {
+        width: 90%;
+    }
+}
